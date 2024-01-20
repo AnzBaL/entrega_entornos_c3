@@ -51,4 +51,10 @@ public class Entrega {
 	{
 		return base * altura;
 	}
+	
+	// VOLUMEN CUBO
+	public static double volumenCubo(double lado)
+	{
+		return Math.pow(lado, 3);
+	}
 }
