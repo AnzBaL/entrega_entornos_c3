@@ -28,4 +28,14 @@ public class Entrega {
 	{
 		return (base * altura) / 2;
 	}
+	// AREA CIRCULO
+	public static double areaCircunferencia(double radio) {
+
+		return Math.PI * Math.pow(radio, 2);
+	}
+	// PERIMETRO CIRCULO
+	public static double perimetroCircunferencia(double radio) {
+
+		return Math.PI * (radio * 2);
+	}
 }
