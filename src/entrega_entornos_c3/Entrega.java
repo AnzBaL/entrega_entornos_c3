@@ -33,9 +33,17 @@ public class Entrega {
 
 		return Math.PI * Math.pow(radio, 2);
 	}
+	
 	// PERIMETRO CIRCULO
 	public static double perimetroCircunferencia(double radio) {
 
 		return Math.PI * (radio * 2);
 	}
+	
+	// AREA CILINDRO
+	public static double areaCilindro(double radio, double altura)
+	{
+		return 2 * Math.PI * radio * (radio + altura);
+	}
+
 }
