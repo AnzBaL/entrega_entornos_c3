@@ -45,5 +45,10 @@ public class Entrega {
 	{
 		return 2 * Math.PI * radio * (radio + altura);
 	}
-
+	
+	//AREA RECTANGULO
+	public static double areaRectangulo(double base, double altura)
+	{
+		return base * altura;
+	}
 }
