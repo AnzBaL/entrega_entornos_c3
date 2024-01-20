@@ -46,10 +46,15 @@ public class Entrega {
 		return 2 * Math.PI * radio * (radio + altura);
 	}
 	
+	//AREA RECTANGULO
+	public static double areaRectangulo(double base, double altura)
+	{
+		return base * altura;
+	}
+	
 	// VOLUMEN CUBO
 	public static double volumenCubo(double lado)
 	{
 		return Math.pow(lado, 3);
 	}
-
 }
